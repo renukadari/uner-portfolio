@@ -1,0 +1,90 @@
+.projects-div{
+  padding: 90px 100px 100px 100px;
+  
+}.prjct-title {
+  font-family: "Blorado, sans-serif";
+  font-size: 32px;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.vide-prj-card {
+  max-width: 700px;
+  /* height: auto; */
+  /* height: 400px; */
+  display: flex;
+  align-items: center;
+}
+.prj-vi-de-div {
+  display: flex;
+  gap: 64px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.prj-vi-de-div,
+.prj-deatils-div {
+  flex: 1;
+}
+.prj-name {
+  font-family: "san";
+  font-size: 24px;
+  color: #063b73;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-family: "Blorado, sans-serif";
+}
+.prj-info {
+  font-size: 16px;
+  font-family: inherit;
+  color: #545454;
+}
+.tools-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #161515;
+  margin: 16px 0px;
+  font-family: "Blorado, sans-serif";
+}
+.live-link-btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #007bff;
+  border-radius: 5px;
+  margin: 20px 0px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.my-prj-tools {
+  max-width: 400px;
+}
+.prj-tool {
+  padding: 10px 15px;
+  background-color: #007bff11;
+  color: #111111d8;
+}
+.prj-accordion-div {
+  width: 100%;
+  margin: 16px 0px 32px;
+  /* padding: 10px 0px 132px; */
+}
+.prj-accordion-text {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #161515;
+  /* margin: 16px 0px; */
+  font-family: "Blorado, sans-serif";
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #007bffb3;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.prj-info-accordion{
+  padding:  10px 10px ;
+}

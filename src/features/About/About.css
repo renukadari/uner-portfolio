@@ -1,0 +1,91 @@
+.about-me-div {
+  background-color: #fff;
+}
+.about-content-div {
+  height: 90vh;
+  padding: 32px 62px 0px;
+  margin-bottom: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.abt-header-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.abt-title-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.abt-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  color: #111;
+  letter-spacing: 3px;
+}
+.abt-title-hr {
+  border-radius: 5px;
+  width: 180px;
+  border: 2px solid #063b73;
+  margin: 0;
+}
+.abt-con-desc {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  /* margin: 0; */
+}
+.abt-subtitle {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  color: #545454;
+}
+.abt-subtitle-div {
+  max-width: 600px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.abt-me-con-detail-div {
+  display: flex;
+  gap: 64px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  /* padding: 0 32px; */
+}
+.abt-me-desc-div,
+.abt-me-skils-div {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.con-tag-title {
+  font-size: 32px;
+  font-weight: 600;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Blorado, sans-serif";
+  color: #063b73;
+}
+.my-skill {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: #666;
+  width: auto;
+  background-color: rgb(153 153 153 / 20%);
+  border-radius: 5px;
+}
+.my-skills-div {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
