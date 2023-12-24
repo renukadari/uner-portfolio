@@ -1,4 +1,4 @@
-.intro-cp-div,.about-me-div, .projects-div {
+.intro-cp-div,.about-me-div, .projects-div, .contact-me-div  {
   background-color: #e9eeee;
   padding: 90px 100px 0px 100px;
   }
@@ -37,7 +37,7 @@
   font-family: inherit;
   font-weight: 500;
   text-transform: uppercase;
-  color: #121829;
+  color: #063b73;
 }
 .intr-con-icon {
   cursor: pointer;

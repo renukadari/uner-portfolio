@@ -49,7 +49,7 @@
 .live-link-btn {
   cursor: pointer;
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #063b73;
   border-radius: 5px;
   margin: 20px 0px;
   color: #fff;
@@ -61,7 +61,7 @@
 }
 .prj-tool {
   padding: 10px 15px;
-  background-color: #007bff11;
+  background-color: #063b7311;
   color: #111111d8;
 }
 .prj-accordion-div {
@@ -80,7 +80,7 @@
   gap: 8px;
   justify-content: space-between;
   padding: 10px 15px;
-  background-color: #007bffb3;
+  background-color: #063b73b3;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;

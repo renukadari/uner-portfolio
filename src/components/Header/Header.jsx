@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import renu from "../../assets/Images/renuka-photo.jpg";
+import renu from "../../assets/Images/jpeg/renuka-photo.jpg";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import ResumePdf from "../../assets/pdfs/RenukaFrontend.pdf";
@@ -14,7 +14,7 @@ const Header = () => {
       smooth: "easeInOutQuart",
     });
   };
-  console.log('ResumePdf:', ResumePdf);
+  console.log("ResumePdf:", ResumePdf);
 
   return (
     <>
@@ -40,10 +40,17 @@ const Header = () => {
             {" "}
             About
           </ScrollLink>
-          <Link to="/" className="header-nav-item">
+          <ScrollLink
+            to="projects"
+            className="header-nav-item"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {" "}
             Projects
-          </Link>
-         
+          </ScrollLink>
+
           <a
             href={ResumePdf}
             target="_blank"
@@ -52,9 +59,15 @@ const Header = () => {
           >
             Resume
           </a>
-          <Link to="/" className="header-nav-item">
+          <ScrollLink
+            to="contact"
+            className="header-nav-item"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             Contact
-          </Link>
+          </ScrollLink>
         </div>
       </div>
     </>

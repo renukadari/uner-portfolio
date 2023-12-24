@@ -1,0 +1,72 @@
+.contact-me-div {
+  padding: 100px;
+  background-color: #fff;
+}
+.contact-form-div {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: #063b736a 0 5px 20px 0;
+  padding: 32px;
+  border-radius: 5px;
+}
+.cform-label {
+  color: #545454;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: 1px;
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.con-input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.con-text-area {
+  width: 100%;
+  height: 200px;
+}
+textarea.con-text-area {
+  resize: none;
+}
+.cform-input {
+  width: 100%;
+  padding: 15px;
+  color: #333;
+  border: 1px solid #ebebeb;
+  font-size: 16px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.con-error-msg {
+  color: red;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.con-submit-btn {
+  background-color: #063b73;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  float: right;
+  width: 25%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contact-content-div {
+  height: auto !important;
+  margin-bottom: 50px !important;
+}

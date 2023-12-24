@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import ProjectTemplate from "./ProjectTemplate";
 import content from "../../content/content";
+import PortfolioVideo from "../../assets/videos/renukaPortfolioVideo.mp4";
 import HeartyHelperVideo from "../../assets/videos/hearty-helper.mp4";
 import TechCurveVideo from "../../assets/videos/TechCurveVideo.mp4";
 import ConqtVideo from "../../assets/videos/ConqtVideo.mp4";
@@ -31,6 +32,11 @@ const Projects = () => {
     "Git",
     "GitHub",
     "State Management",
+    "Authentication",
+    "Multilingual Support",
+    "Responsive Design",
+    "Post Management",
+    "Filtering and Sorting",
   ];
   const ToolsUsedTc = [
     "HTML",
@@ -65,36 +71,65 @@ const Projects = () => {
         <h1 className="prjct-title">Projects - Past Work.</h1>
       </div>
       <ProjectTemplate
-        ProjecTitle=" Project:1 Uner Portfolio"
-        ProjectDescription={projectContent.prjdescrp}
-        ProjectVideo={HeartyHelperVideo}
+        ProjecTitle=" Project:1 Portfolio"
+        ProjectDescription={projectContent.prjdescrpPo}
+        ProjectVideo={PortfolioVideo}
         ToolsUsed={ToolsUsedPf}
-        ProjectOverview={projectContent.prjdescr1}
+        ProjectOverview={
+          <>
+            <p>
+              {projectContent.prjPortfolioOv1}
+              {projectContent.prjPortfolioOv2}
+            </p>
+            <p>{projectContent.prjPortfolioOv3}</p>
+            <p>{projectContent.prjPortfolioOv4}</p>
+          </>
+        }
         handleLiveLink1={handleLiveLinkHh}
       />
+
       <ProjectTemplate
         ProjecTitle=" Project:2 Hearty Helper"
-        ProjectDescription={projectContent.prjdescr1}
+        ProjectDescription={projectContent.prjdescrpHh}
         ProjectVideo={HeartyHelperVideo}
         ToolsUsed={ToolsUsedHH}
-        ProjectOverview={projectContent.prjdescr1}
+        ProjectOverview={
+          <>
+            <p>
+              {projectContent.prjDescriptionHh1}
+              {projectContent.prjDescriptionHh2}
+            </p>
+            <p>{projectContent.prjDescriptionHh3}</p>
+            <p>{projectContent.prjDescriptionHh4}</p>
+          </>
+        }
         handleLiveLink1={handleLiveLinkHh}
       />
       <ProjectTemplate
         ProjecTitle=" Project:3 Tech Curve"
-        ProjectDescription={projectContent.prjdescr1}
+        ProjectDescription={projectContent.prjdescrpTc}
         ProjectVideo={TechCurveVideo}
         ToolsUsed={ToolsUsedTc}
-        ProjectOverview={projectContent.prjdescr1}
+        ProjectOverview={
+          <>
+            <p>{projectContent.prjDescriptionTc1}</p>
+            <p>{projectContent.prjDescriptionTc2}</p>
+          </>
+        }
         handleLiveLink1={handleLiveLinkTc}
       />
       <ProjectTemplate
         ProjecTitle=" Project:4 Conqt"
-        ProjectDescription={projectContent.prjdescr3}
+        ProjectDescription={projectContent.prjdescrpCt}
         ProjectVideo={ConqtVideo}
         ToolsUsed={ToolsUsedCt}
-        ProjectOverview={projectContent.prjdescr1}
-        handleLiveLink1={handleLiveLinkTc}
+        ProjectOverview={
+          <>
+            <p>{projectContent.prjDescriptionCt1}</p>
+            <p>{projectContent.prjDescriptionCt2}</p>
+            <p>{projectContent.prjDescriptionCt3}</p>
+          </>
+        }        handleLiveLink1={handleLiveLinkTc}
       />
     </div>
   );

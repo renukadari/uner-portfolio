@@ -10,8 +10,8 @@ const About = () => {
     "HTML",
     "CSS",
     "JavaScript",
-    "React",
     "Bootstrap",
+    "React.js", "JSX",
     "Git",
     "Github",
     "Responsive Design",
@@ -22,8 +22,8 @@ const About = () => {
     "RESTful APIs",
     "Webpack",
     "Babel",
-    "Material-UI",
-    "Performance Optimization ",
+    "Material-UI", "Debugging","Code Splitting", 
+    "Performance Optimization ", "State and Props Mangement"
   ];
 
   return (
