@@ -113,4 +113,8 @@
   .prj-tool {
     padding: 6px 12px;
   }
+  .prjct-title {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
 }

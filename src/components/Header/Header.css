@@ -9,7 +9,6 @@
   background-color: #fff;
   z-index: 9999;
   box-shadow: #063b73 0 0px 6px 0;
-
 }
 .renu-hp-img {
   width: 50px;
@@ -55,13 +54,47 @@
 .header-nav-items-div {
   display: flex;
   gap: 64px;
+  flex-direction: row;
   /* margin: 0px 60px 0px 0px; */
 }
 .header-nav-item:hover,
 .header-brand-name:hover {
-  color: #6cafd0;
+  color: #063b73;
 }
 .header-nav-item:active,
 .header-brand-name:active {
-  color: #0779b1;
+  color: #01152a;
+}
+.menu-icon {
+  cursor: pointer;
+}
+.menu-icon:hover {
+  color: #063b73;
+}
+.menu-icon:active {
+  color: #01152a;
+}
+.header-nav-items-div.column {
+  display: flex;
+}
+.header-div.sidebar-open .menu-icon {
+  display: none; /* Hide the menu icon when sidebar is open */
+}
+
+@media screen and (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-nav-items-div {
+    display: none; /* Default display property */
+  }
+  .renu-hp-img {
+    width: 35px;
+    height: 35px;
+  }
+  .header-div {
+    padding: 15px;
+  }
 }
