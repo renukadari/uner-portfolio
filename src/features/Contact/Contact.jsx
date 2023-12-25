@@ -15,11 +15,12 @@ const Contact = () => {
   const { ContactContent } = content;
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("/", {
+      const response = await fetch("https://renukakadarideveloper.netlify.app/.netlify/functions/submitForm", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(data).toString(),
       });
+      
   
       if (response.ok) {
         toast.success("Thank you for contacting me!", {

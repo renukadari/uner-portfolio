@@ -59,6 +59,9 @@ const Projects = () => {
     "Content Research",
     "Git",
   ];
+  const handleLiveLinkPo =()=>{
+    window.open("https://renukakadarideveloper.netlify.app/")
+  }
   const handleLiveLinkHh = () => {
     window.open("https://heartyhelper.co/");
   };
@@ -85,7 +88,7 @@ const Projects = () => {
             <p>{projectContent.prjPortfolioOv4}</p>
           </>
         }
-        handleLiveLink1={handleLiveLinkHh}
+        handleLiveLink1={handleLiveLinkPo}
       />
 
       <ProjectTemplate

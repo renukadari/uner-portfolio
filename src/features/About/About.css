@@ -89,3 +89,30 @@
   gap: 18px;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 865px) {
+  .abt-title {
+    font-size: 20px;
+  }
+  .abt-title-hr {
+    width: 100px;
+  }
+  .about-content-div {
+    height: auto;
+    padding: 12px 10px 0px;
+    margin-bottom: 25px;
+    gap: 24px;
+  }
+  .about-me-div {
+    padding: 20px 10px 20px 10px;
+  }
+  .abt-me-con-detail-div {
+    gap: 24px;
+    flex-direction: column;
+  }
+  .my-skill {
+    padding: 6px 12px;
+  }
+  .con-tag-title {
+    font-size: 24px;
+  }
+}

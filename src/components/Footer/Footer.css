@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   margin: 20px 0px;
+  gap: 200px;
 }
 
 .cp-text {
@@ -25,23 +26,31 @@
   color: #d5d2d2;
   font-weight: 400;
   font-size: 16px;
-  
 }
-.footer-name{
+.footer-name {
   color: #d5d2d2;
   font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.footer-contact-div{
-  display: flex;
-  justify-content: space-between;
-  gap: 200px;
-}
-.footer-social-icons{
+.footer-social-icons {
   color: #fff;
 }
-.footer-contact-part{
+.footer-contact-part {
   max-width: 550px;
+}
+@media screen and (max-width: 865px) {
+  .footer-div {
+    padding: 50px 30px 50px;
+  }
+  .footer-contact-div {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .cp-text, .footer-descri{
+    font-size: 12px;
+  }
+
+
 }

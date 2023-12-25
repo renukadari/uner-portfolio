@@ -1,7 +1,7 @@
-.projects-div{
+.projects-div {
   padding: 90px 100px 100px 100px;
-  
-}.prjct-title {
+}
+.prjct-title {
   font-family: "Blorado, sans-serif";
   font-size: 32px;
   color: #111;
@@ -85,6 +85,32 @@
   border-radius: 8px;
   cursor: pointer;
 }
-.prj-info-accordion{
-  padding:  10px 10px ;
+.prj-info-accordion {
+  padding: 10px 10px;
+}
+@media screen and (max-width: 865px) {
+  .projects-div {
+    padding: 20px 10px 10px 20px;
+  }
+  .prj-vi-de-div {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .vide-prj-card {
+    order: 2;
+  }
+  .prj-deatils-div {
+    order: 1;
+  }
+  .prj-accordion-text{
+    font-size: 16px;
+  }
+  .prj-name{
+    font-size: 20px;
+    text-align: center;
+  }
+  .prj-tool {
+    padding: 6px 12px;
+  }
 }

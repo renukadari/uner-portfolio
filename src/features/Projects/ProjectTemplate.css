@@ -9,3 +9,9 @@
   margin: 0px auto 32px;
 
 }
+@media screen and (max-width: 865px) {
+  .video-div{
+    max-width: 350px;
+    width: 100%;
+  }
+}
