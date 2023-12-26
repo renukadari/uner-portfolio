@@ -18,9 +18,7 @@ const Contact = () => {
           </div>{" "}
         </div>
         <div className="contact-form-div">
-          <form name="uner-contact-form" netlify data-netlify="true">
-            <input type="hidden" name="uner-contact-form" value="contact form" />
-
+          <form name="uner-contact-form" netlify>
             <div className="con-input-div">
               <label className="cform-label">
                 Name
@@ -57,7 +55,7 @@ const Contact = () => {
             </div>
 
             <button type="submit" name="Submit" className="con-submit-btn">
-              Submit form
+              Submit
             </button>
           </form>
         </div>
