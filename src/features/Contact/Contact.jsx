@@ -1,17 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import content from "../../content/content";
-import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm();
   const { ContactContent } = content;
 
   return (
@@ -27,12 +20,9 @@ const Contact = () => {
           </div>{" "}
         </div>
         <div className="contact-form-div">
-          <form
-            name="contact form"
-            netlify data-netlify="true"
-          >
-          <input type="hidden" name="contact form" value="contact form" />
-            
+          <form name="uner-contact-form" netlify data-netlify="true">
+            <input type="hidden" name="uner-contact-form" value="contact form" />
+
             <div className="con-input-div">
               <label className="cform-label">
                 Name
@@ -40,13 +30,9 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Enter Your Name"
-                  {...register("name", { required: true })}
                   className="cform-input"
                 />
               </label>
-              {errors.name && (
-                <span className="con-error-msg">Please enter the name.</span>
-              )}{" "}
             </div>
             <div className="con-input-div">
               <label className="cform-label">
@@ -55,18 +41,9 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="Enter Your Email"
-                  {...register("email", {
-                    required: true,
-                    pattern: /^\S+@\S+$/i,
-                  })}
                   className="cform-input"
                 />
               </label>
-              {errors.email && (
-                <span className="con-error-msg">
-                  Please enter a valid email.
-                </span>
-              )}{" "}
             </div>
             <div className="con-input-div">
               {" "}
@@ -76,18 +53,13 @@ const Contact = () => {
                   name="message"
                   placeholder="Enter Your Message"
                   maxLength="250"
-                  {...register("message", { required: true })}
                   className="con-text-area cform-input"
                 />
               </label>
-              {errors.message && (
-                <span className="con-error-msg">Please enter the message.</span>
-              )}
             </div>
-            
 
             <button type="submit" name="Submit" className="con-submit-btn">
-              Submit
+              Submit form
             </button>
           </form>
         </div>
