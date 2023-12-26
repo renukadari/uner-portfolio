@@ -1,8 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import content from "../../content/content";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const { ContactContent } = content;
@@ -64,7 +62,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <ToastContainer />
     </div>
   );
 };
