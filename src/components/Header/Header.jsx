@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import renu from "../../assets/Images/jpeg/renuka-photo.jpg";
+import renu from "../../assets/Images/jpeg/protfolio-icon.png";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import ResumePdf from "../../assets/pdfs/RenukaFrontend.pdf";
