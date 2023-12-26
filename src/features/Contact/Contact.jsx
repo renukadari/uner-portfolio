@@ -18,7 +18,7 @@ const Contact = () => {
           </div>{" "}
         </div>
         <div className="contact-form-div">
-          <form name="uner-contact-form"   method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="uner-contact-form"   method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field" action="">
             <input type="hidden" name="form-name" value="uner-contact-form" />
 
             <div className="con-input-div">
