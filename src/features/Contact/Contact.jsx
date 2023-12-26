@@ -18,8 +18,8 @@ const Contact = () => {
           </div>{" "}
         </div>
         <div className="contact-form-div">
-        <form name="uner-contact-form" netlify data-netlify="true">
-          <input type="hidden" name="form-name" value="uner-contact-form" />
+          <form name="uner-contact-form" netlify data-netlify="true">
+            <input type="hidden" name="form-name" value="uner-contact-form" />
 
             <div className="con-input-div">
               <label className="cform-label">
