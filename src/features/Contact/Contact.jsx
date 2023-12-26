@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
 
             <button type="submit" name="Submit" className="con-submit-btn">
-              Submit form
+              Submit
             </button>
           </form>
         </div>
