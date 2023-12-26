@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const About = () => {
   const { aboutContent } = content;
-  const skillsData = [
+    const skillsData = [
     "HTML",
     "CSS",
     "JavaScript",
