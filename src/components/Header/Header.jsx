@@ -24,7 +24,6 @@ const Header = () => {
       smooth: "easeInOutQuart",
     });
   };
-  console.log("ResumePdf:", ResumePdf);
 
   return (
     <>

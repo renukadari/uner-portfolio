@@ -13,28 +13,6 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
   const { ContactContent } = content;
-  const onSubmit = async (data) => {
-    try {
-      const response = await fetch("https://renukakadarideveloper.netlify.app/.netlify/functions/submitForm", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(data).toString(),
-      });
-      
-  
-      if (response.ok) {
-        toast.success("Thank you for contacting me!", {
-          position: toast.POSITION.TOP_RIGHT,
-        });
-        reset();
-      } else {
-        toast.error("Error submitting the form. Please try again later.");
-      }
-    } catch (error) {
-      console.error("Form submission error:", error);
-      toast.error("Error submitting the form. Please try again later.");
-    }
-  };
 
   return (
     <div className="contact-me-div" id="contact">
@@ -50,13 +28,11 @@ const Contact = () => {
         </div>
         <div className="contact-form-div">
           <form
-            onSubmit={handleSubmit(onSubmit)}
-            netlify
-            name="contact"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            name="contact form"
+            netlify data-netlify="true"
           >
+          <input type="hidden" name="contact form" value="contact form" />
+            
             <div className="con-input-div">
               <label className="cform-label">
                 Name
@@ -108,12 +84,7 @@ const Contact = () => {
                 <span className="con-error-msg">Please enter the message.</span>
               )}
             </div>
-            <input type="hidden" name="form-name" value="contact" />
-            <p hidden>
-              <label>
-                Don’t fill this out if you're human: <input name="bot-field" />
-              </label>
-            </p>
+            
 
             <button type="submit" name="Submit" className="con-submit-btn">
               Submit
