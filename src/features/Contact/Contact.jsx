@@ -18,8 +18,8 @@ const Contact = () => {
           </div>{" "}
         </div>
         <div className="contact-form-div">
-          <form name="uner-contact-form"   method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field" action="">
-            <input type="hidden" name="form-name" value="uner-contact-form" />
+          <form name="uner-contact-form"   method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field" action="/uner-contact-form">
+            <input type="hidden" name="uner-contact-form" value="uner-contact-form" />
 
             <div className="con-input-div">
               <label className="cform-label">
@@ -52,7 +52,7 @@ const Contact = () => {
                   placeholder="Enter Your Message"
                   maxLength="250"
                   className="con-text-area cform-input"
-                />
+                ></textarea>
               </label>
             </div>
 
