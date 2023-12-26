@@ -11,7 +11,8 @@ const About = () => {
     "CSS",
     "JavaScript",
     "Bootstrap",
-    "React.js", "JSX",
+    "React.js",
+    "JSX",
     "Git",
     "Github",
     "Responsive Design",
@@ -22,8 +23,12 @@ const About = () => {
     "RESTful APIs",
     "Webpack",
     "Babel",
-    "Material-UI", "Debugging","Code Splitting", 
-    "Performance Optimization ", "State and Props Mangement"
+    "Netlify",
+    "Material-UI",
+    "Debugging",
+    "Code Splitting",
+    "Performance Optimization ",
+    "State and Props Mangement",
   ];
 
   return (
@@ -51,9 +56,9 @@ const About = () => {
               </div>
               <div contact-btn-div>
                 <p className="abt-con-desc mb3">
-                  Lets Continue To Projects
+                  Let's Talk
                   <ScrollLink
-                    to="projects"
+                    to="contact"
                     spy={true}
                     smooth={true}
                     duration={500}
