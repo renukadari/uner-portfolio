@@ -26,7 +26,7 @@ const Contact = () => {
                 Name
                 <input
                   type="text"
-                  name="name"
+                  name="name" required
                   placeholder="Enter Your Name"
                   className="cform-input"
                 />
@@ -37,7 +37,7 @@ const Contact = () => {
                 Email
                 <input
                   type="email"
-                  name="email"
+                  name="email" required
                   placeholder="Enter Your Email"
                   className="cform-input"
                 />
@@ -48,7 +48,7 @@ const Contact = () => {
               <label className="cform-label">
                 Message
                 <textarea
-                  name="message"
+                  name="message" required
                   placeholder="Enter Your Message"
                   maxLength="250"
                   className="con-text-area cform-input"
