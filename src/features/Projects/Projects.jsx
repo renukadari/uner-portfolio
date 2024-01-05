@@ -6,6 +6,7 @@ import PortfolioVideo from "../../assets/videos/renukaPortfolioVideo.mp4";
 import HeartyHelperVideo from "../../assets/videos/hearty-helper.mp4";
 import TechCurveVideo from "../../assets/videos/TechCurveVideo.mp4";
 import ConqtVideo from "../../assets/videos/ConqtVideo.mp4";
+import ProjectPortfolio from "./ProjectPortfolio";
 
 const Projects = () => {
   const { projectContent } = content;
@@ -59,9 +60,9 @@ const Projects = () => {
     "Content Research",
     "Git",
   ];
-  const handleLiveLinkPo =()=>{
-    window.open("https://renukakadarideveloper.netlify.app/")
-  }
+  const handleLiveLinkPo = () => {
+    window.open("https://renukakadarideveloper.netlify.app/");
+  };
   const handleLiveLinkHh = () => {
     window.open("https://heartyhelper.co/");
   };
@@ -90,6 +91,22 @@ const Projects = () => {
         }
         handleLiveLink1={handleLiveLinkPo}
       />
+      {/* <ProjectPortfolio
+        ProjecTitle=" Project:1 Portfolio"
+        ProjectDescription={projectContent.prjdescrpPo}
+        ToolsUsed={ToolsUsedPf}
+        ProjectOverview={
+          <>
+            <p>
+              {projectContent.prjPortfolioOv1}
+              {projectContent.prjPortfolioOv2}
+            </p>
+            <p>{projectContent.prjPortfolioOv3}</p>
+            <p>{projectContent.prjPortfolioOv4}</p>
+          </>
+        }
+        handleLiveLink1={handleLiveLinkPo}
+      /> */}
 
       <ProjectTemplate
         ProjecTitle=" Project:2 Hearty Helper"
@@ -132,7 +149,8 @@ const Projects = () => {
             <p>{projectContent.prjDescriptionCt2}</p>
             <p>{projectContent.prjDescriptionCt3}</p>
           </>
-        }        handleLiveLink1={handleLiveLinkTc}
+        }
+        handleLiveLink1={handleLiveLinkTc}
       />
     </div>
   );

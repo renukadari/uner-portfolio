@@ -5,6 +5,7 @@ import Intro from "../../components/Intro/Intro";
 import About from "../../features/About/About";
 import Projects from "../../features/Projects/Projects";
 import Contact from "../../features/Contact/Contact";
+import SkillSwiper from "../../features/SkillSwiper/SkillSwiper";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HomePageLayout>
         <Intro />
         <About />
+        <SkillSwiper/>
         <Projects />
         <Contact/>
       </HomePageLayout>
