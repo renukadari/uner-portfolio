@@ -3,7 +3,7 @@ import React from "react";
 import "./SideBar.css";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import ResumePdf from "../../assets/pdfs/renukaDeveloper24.pdf";
+import ResumePdf from "../../assets/pdfs/RenukaDeveloper.pdf";
 import { IoClose } from "react-icons/io5";
 
 const Sidebar = ({ isOpen, onClose, scrollToTop }) => (

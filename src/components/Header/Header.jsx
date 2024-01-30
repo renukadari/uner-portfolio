@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import renu from "../../assets/Images/jpeg/protfolio-icon.png";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import ResumePdf from "../../assets/pdfs/renukaDeveloper24.pdf";
+import ResumePdf from "../../assets/pdfs/RenukaDeveloper.pdf";
 import { MdOutlineMenuOpen } from "react-icons/md";
 import Sidebar from "../SideBar/SideBar";
 
