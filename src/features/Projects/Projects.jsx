@@ -69,6 +69,9 @@ const Projects = () => {
   const handleLiveLinkTc = () => {
     window.open("https://techcurve.co/");
   };
+  const handleLiveLinkCt = () => {
+    window.open("https://www.conqt.com/");
+  };
   return (
     <div className="projects-div" id="projects">
       <div>
@@ -150,7 +153,7 @@ const Projects = () => {
             <p>{projectContent.prjDescriptionCt3}</p>
           </>
         }
-        handleLiveLink1={handleLiveLinkTc}
+        handleLiveLink1={handleLiveLinkCt}
       />
     </div>
   );
