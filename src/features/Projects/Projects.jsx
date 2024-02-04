@@ -7,17 +7,35 @@ import HeartyHelperVideo from "../../assets/videos/hearty-helper.mp4";
 import TechCurveVideo from "../../assets/videos/TechCurveVideo.mp4";
 import ConqtVideo from "../../assets/videos/ConqtVideo.mp4";
 import ProjectPortfolio from "./ProjectPortfolio";
+import ChalisaVideo from "../../assets/videos/chalisa.mp4";
 
 const Projects = () => {
   const { projectContent } = content;
   const ToolsUsedPf = [
+    "React js",
     "HTML",
     "CSS",
     "Bootstrap",
-    "React",
     "javaScript",
     "Git",
+    "Git Hub",
+    "NPM",
     "Netlify",
+  ];
+  const ToolsUsedHcCh = [
+    "React js",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "javaScript",
+    "Git",
+    "Git Hub",
+    "React Bootstrap",
+    "firebase",
+    "Vs Code",
+    "NPM",
+    "NVM",
+    "Node.js",
   ];
   const ToolsUsedHH = [
     "HTML",
@@ -71,6 +89,9 @@ const Projects = () => {
   };
   const handleLiveLinkCt = () => {
     window.open("https://www.conqt.com/");
+  };
+  const handleLiveLinkHaCh = () => {
+    window.open("https://rjkhanumanchalisa.web.app/");
   };
   return (
     <div className="projects-div" id="projects">
@@ -128,6 +149,7 @@ const Projects = () => {
         }
         handleLiveLink1={handleLiveLinkHh}
       />
+
       <ProjectTemplate
         ProjecTitle=" Project:3 Tech Curve"
         ProjectDescription={projectContent.prjdescrpTc}
@@ -154,6 +176,20 @@ const Projects = () => {
           </>
         }
         handleLiveLink1={handleLiveLinkCt}
+      />
+      <ProjectTemplate
+        ProjecTitle=" Project:5 Hanuman-Chalisa"
+        ProjectDescription={projectContent.prjdescrpHaCh}
+        ProjectVideo={ChalisaVideo}
+        ToolsUsed={ToolsUsedHcCh}
+        ProjectOverview={
+          <>
+            <p>{projectContent.prjDescriptionHaCh1}</p>
+            <p>{projectContent.prjDescriptionHaCh2}</p>
+            <p>{projectContent.prjDescriptionHaCh3}</p>
+          </>
+        }
+        handleLiveLink1={handleLiveLinkHaCh}
       />
     </div>
   );

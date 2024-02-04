@@ -21,6 +21,7 @@ const projectContent = {
   prjdescrpHh: "Hearty Helper employment agency is a company that puts the well-being of its employees and their families above all else. User-centric React project with customer-employee logins, profiles, notifications, multilingual support, advanced posts, and interactive chat.",
   prjdescrpTc: "Tech Curve AI & Innovations Co., Ltd. is a new-age IT, digital and Engineering solution provider that offers the most comprehensive suite of services like ERP solutions, Application Development, Engineering Softwares. I developed a responsive Seeq module at Tech Curve AI & Innovations, utilizing Figma for UI/UX and HTML, CSS, Bootstrap, and JavaScript for seamless implementation and content enhancement.",
   prjdescrpCt: "ConQT is a E-Procurement Platform that connects businesses who sell technology products and services with other businesses who are looking to buy them. I spearheaded the creation of impactful email templates, conducted UI/UX research, and curated content for over 120 products at ConQT. Additionally, developed HTML pages, enhancing the platform's visual appeal and user experience.",
+  prjdescrpHaCh: "I led the development of the Hanuman Chalisa Experience, seamlessly blending devotion and technology. Using ReactJS for a dynamic interface, Firebase for secure hosting, and Git for collaboration, I created a platform where users can read, listen, and watch the sacred verses with responsive design across devices. My role involved architecting the project, integrating audio and video components, ensuring security, and optimizing for a harmonious user experience.",
   prjPortfolioOv1:
     "In my React Portfolio, a dynamic and visually engaging platform crafted to convey my expertise, creativity, and passion for web development. This carefully designed website encapsulates my professional journey, showcasing a blend of technical proficiency and innovative project work.",
   prjPortfolioOv2:
@@ -49,6 +50,10 @@ const projectContent = {
     "Tech Curve AI & Innovations Co., Ltd. is a new-age IT, digital and Engineering solution provider that offers the most comprehensive suite of services like ERP solutions, Application Development, Engineering Softwares",
   prjdescr3:
     "ConQT is a E-Procurement Platform that connects businesses who sell technology products and services with other businesses who are looking to buy them.",
+    prjDescriptionHaCh1: "Leveraging ReactJS, I designed a dynamic and responsive interface, allowing users to immerse themselves in the sacred verses. The integration of an audio player, seamlessly woven into the application, provides a soulful recitation experience, complemented by visually captivating devotional videos.",
+    prjDescriptionHaCh2: "The commitment to inclusivity was upheld through the implementation of responsive design principles, ensuring a user-friendly encounter across diverse devices.",
+    prjDescriptionHaCh3: "I fortified the project's foundation by hosting it securely on Firebase, incorporating authentication mechanisms for confidentiality. Git facilitated streamlined development and collaboration, while rigorous testing and optimization efforts guaranteed a reliable and optimized platform. Through meticulous documentation, I aimed to empower the team for future enhancements, and I take pride in contributing to the realization of the Hanuman Chalisa Experience—a project that transcends technology to foster spiritual connection.",
+
 };
 const ContactContent = {
   contactDescription:
