@@ -12,6 +12,7 @@ import GIT from "../../assets/Images/Png/git.png";
 import GITHUB from "../../assets/Images/Png/github.png";
 import NETLIFY from "../../assets/Images/Png/netlify-logo.png";
 import FIGMA from "../../assets/Images/Png/figma.png";
+import FIREBASE from "../../assets/Images/Png/firebase.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -66,6 +67,9 @@ const SkillSwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={FIGMA} alt="" className="skill-swiper-logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={FIREBASE} alt="" className="skill-swiper-logo" />
         </SwiperSlide>
       </Swiper>
     </div>
