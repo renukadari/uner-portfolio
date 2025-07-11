@@ -3,17 +3,22 @@
   height: 100px;
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain;}
+  object-fit: contain;
+}
 .skill-swiper-div{
-    margin: 50px auto 100px;
+    /* margin: 50px auto 100px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* width: 100%; */
     /* justify-content: center; */
-    padding: 0px 100px;
+    padding:  16px;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width:768px) {
   .skill-swiper-logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height:60px;
   }
   .skill-swiper-div{
     margin: 20px auto 40px;

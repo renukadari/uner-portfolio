@@ -23,18 +23,19 @@ import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 const SkillSwiper = () => {
   return (
     <div className="container skill-swiper-div">
-      <Swiper
-        modules={[Navigation, Pagination, Scrollbar, Autoplay]}
-        spaceBetween={10}
-        slidesPerView={5}
-        autoplay={{ delay: 1000, disableOnInteraction: false }}
-        loop={true}
-        // navigation
-        // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
+   <Swiper
+  modules={[Navigation, Pagination, Scrollbar, Autoplay]}
+  spaceBetween={10}
+  autoplay={{ delay: 1000, disableOnInteraction: false }}
+  loop={true}
+  breakpoints={{
+    320: { slidesPerView: 2 },
+    480: { slidesPerView: 3 },
+    768: { slidesPerView: 4 },
+    1024: { slidesPerView: 5 },
+  }}
+>
+
         <SwiperSlide>
           <img src={HTML} alt="" className="skill-swiper-logo" />
         </SwiperSlide>{" "}

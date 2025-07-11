@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-cp-line">
         <hr className="footer-hr-line"></hr>{" "}
-        <p className="cp-text">© Copyright 2024. Made by Renuka Kadari</p>
+        <p className="cp-text">© Copyright 2025. Made by Renuka Kadari</p>
       </div>
     </div>
   );

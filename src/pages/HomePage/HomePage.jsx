@@ -13,7 +13,10 @@ const HomePage = () => {
       <HomePageLayout>
         <Intro />
         <About />
-        <SkillSwiper/>
+        <section id="skills" className="skill-section">
+         <SkillSwiper />
+        </section>
+
         <Projects />
         <Contact/>
       </HomePageLayout>
