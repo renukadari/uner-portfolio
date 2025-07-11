@@ -3,11 +3,13 @@
   padding-bottom: 48px
 }
 .about-content-div {
-  height: 90vh;
+  height: auto;
   padding: 32px 62px 0px;
   display: flex;
   flex-direction: column;
   gap: 48px;
+    min-height: 100vh;
+
 }
 .abt-header-div {
   align-items: center;
@@ -111,6 +113,8 @@
   }
   .my-skill {
     padding: 6px 12px;
+        font-size: 14px;
+
   }
   .con-tag-title {
     font-size: 24px;
